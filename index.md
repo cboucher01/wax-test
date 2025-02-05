@@ -2,8 +2,8 @@
 layout: page
 show_title: false
 banner:
-  collection: qatar
-  pid: obj10
+  collection: twbb
+  pid: TWBB-00031
   y: 25%
   clickable: yes
   height: '500px'
