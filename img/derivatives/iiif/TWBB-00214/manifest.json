@@ -1,0 +1,50 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/TWBB-00214/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "TWBB-00214",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/TWBB-00214/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/TWBB-00214.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/TWBB-00214.json",
+          "label": "front",
+          "width": 1706,
+          "height": 960,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/TWBB-00214/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/TWBB-00214.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/TWBB-00214/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/TWBB-00214",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 853,
+                "height": 480
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/TWBB-00214.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/TWBB-00214/full/full/0/default.jpg",
+  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/TWBB-00214/full/1140,/0/default.jpg"
+}

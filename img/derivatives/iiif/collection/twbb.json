@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/twbb.json",
+  "@type": "sc:Collection",
+  "label": "twbb",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/TWBB-00031/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "TWBB-00031"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/TWBB-00047/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "TWBB-00047"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/TWBB-00054/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "TWBB-00054"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/TWBB-00214/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "TWBB-00214"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/TWBB-03219/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "TWBB-03219"
+    }
+  ]
+}

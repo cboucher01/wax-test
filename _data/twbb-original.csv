@@ -1,0 +1,6 @@
+pid,film,label,timestamp,alt,angle,distance,location,movement,lighting,composition,duration,layout
+TWBB-00031,There Will Be Blood,TWBB-00031,0:00:31,Title screen for There Will Be Blood. White text on a black background.,,,,,,,,film_item
+TWBB-00047,There Will Be Blood,TWBB-00047,0:00:47,Three large desert hills against a pale blue sky with puffy white clouds.,,establishing shot,outdoor,fixed,high key,,,film_item
+TWBB-00054,There Will Be Blood,TWBB-00054,0:00:54,Daniel swings a pickaxe in a dark mineshaft.,eye-level,medium shot,indoor,fixed,low key,single shot,,film_item
+TWBB-00214,There Will Be Blood,TWBB-00214,0:02:14,"Daniel sits by a campfire at dusk. White text in the center of the screen reads, ""1898.""",eye-level,full shot,outdoor,,low key,single shot,,film_item
+TWBB-03219,There Will Be Blood,TWBB-03219,0:32:19,Daniel and H.W. sit overlooking a landscape of rolling desert hills.,eye-level,close-up,outdoor,,,two shot,,film_item
