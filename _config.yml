@@ -17,8 +17,8 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Wax Test for PTA'
-description:      'Site for testing suitability of Wax for a film studies digital scholarship project'
+title:            'Wax Test for Paul Thomas Annotated'
+description:      "Site for testing the suitability of Wax for a digital scholarship project based on Paul Thomas Anderson's films"
 url:              'https://cboucher01.github.io'
 baseurl:          '/wax-test'
 copyright:        ''
