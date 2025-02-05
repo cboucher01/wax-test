@@ -1,1 +1,50 @@
-{"@context":"http://iiif.io/api/presentation/3/context.json","id":"https://cboucher01.github.io/wax-test/img/derivatives/iiif/TWBB-03219/manifest.json","type":"Manifest","behavior":["individuals"],"viewingDirection":"left-to-right","label":{"none":["TWBB-03219"]},"thumbnail":[{"id":"https://cboucher01.github.io/wax-test/img/derivatives/iiif/images/TWBB-03219/full/250,/0/default.jpg","type":"Image"}],"items":[{"id":"https://cboucher01.github.io/wax-test/img/derivatives/iiif/canvas/TWBB-03219.json","type":"Canvas","height":960,"width":1706,"label":{"none":[""]},"thumbnail":[{"id":"https://cboucher01.github.io/wax-test/img/derivatives/iiif/images/TWBB-03219/full/250,/0/default.jpg","type":"Image"}],"annotations":[{"id":"https://cboucher01.github.io/wax-test/img/derivatives/iiif/canvas/TWBB-03219.json/page/p1","type":"AnnotationPage","items":[{"id":"https://cboucher01.github.io/wax-test/img/derivatives/iiif/canvas/TWBB-03219.json/23f2df8b-3233-422b-b03f-fcd9946e9e25","type":"Annotation","motivation":"commenting","body":[{"created":"2025-02-05T19:39:15.327Z","creator":"Cameron Boucher","purpose":"commenting","type":"TextualBody","format":"text/html","value":"<p>Daniel is wearing a brown hat.</p>"}],"target":"https://cboucher01.github.io/wax-test/img/derivatives/iiif/canvas/TWBB-03219.json#xywh=367,59,254,139"}]}]}]}
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/TWBB-03219/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "TWBB-03219",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/TWBB-03219/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/TWBB-03219.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/TWBB-03219.json",
+          "label": "front",
+          "width": 1706,
+          "height": 960,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/TWBB-03219/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/TWBB-03219.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/TWBB-03219/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/TWBB-03219",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 853,
+                "height": 480
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/TWBB-03219.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/TWBB-03219/full/full/0/default.jpg",
+  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/TWBB-03219/full/1140,/0/default.jpg"
+}
