@@ -1,0 +1,20 @@
+
+<script src="https://ncsu-libraries.github.io/annona/dist/annona.js"></script> <link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/annona/dist/annona.css">
+
+<div class="image-viewer">
+    <iiif-storyboard url='{{ include.manifest | absolute_url }}'></iiif-storyboard>
+</div>
+
+
+<style>
+    iiif-storyboard {
+        display: block;
+        height: 100%;
+        overflow: hidden;
+    }
+    .openseadragon-canvas {
+        position: absolute;
+        top: -80px;
+    }
+
+</style>
