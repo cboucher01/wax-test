@@ -4,9 +4,10 @@ title: Browse the Collection
 permalink: /collection/
 ---
 
-This site's sample collection comprises a set of screenshots from Paul Thomas Anderson's 2008 film *There Will Be Blood*.
-
 ## All Images
+{% include gallery.html collection='PUNC' facet_by='angle*|distance*|location*|movement*|lighting*|composition*|duration*' %}
+
+{% comment %}
 {% include collection_gallery.html collection='PUNC' %}
 
 ## By Angle
@@ -29,7 +30,7 @@ This site's sample collection comprises a set of screenshots from Paul Thomas An
 
 ## By Duration
 {% include collection_gallery.html facet_by='duration' collection='PUNC' %}
-
+{% endcomment %}
 {% comment %}
 - film
 - angle
