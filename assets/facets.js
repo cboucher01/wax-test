@@ -116,3 +116,19 @@ function refreshGallery() {
   }
   listOfElements.show("slow");
 }
+
+//function refreshGallery() {
+  // this function shows and hides gallery items based on active checkboxes
+  // it is different from the original one from https://github.com/minicomp/wax-facets/blob/main/assets/js/facets.js
+
+  // grab all gallery items
+  //var listOfElements = document.getElementsByClassName("gallery-item-facets");
+  
+  // start by clearing the gallery of all items
+  //for (i = 0; i < listOfElements.length; i++) {
+  //  listOfElements[i].classList.add("hidden");
+  //}
+
+
+
+}

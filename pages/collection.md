@@ -5,7 +5,7 @@ permalink: /collection/
 ---
 
 ## All Images
-{% include gallery.html collection='PUNC' facet_by='angle*|distance*|location*|movement*|lighting*|composition*|duration*' %}
+{% include gallery.html collection='PUNC' facet_by='angle*, distance*, location*, movement*, lighting*, composition*, duration*' %}
 
 {% comment %}
 {% include collection_gallery.html collection='PUNC' %}

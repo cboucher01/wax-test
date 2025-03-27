@@ -24,7 +24,7 @@
 
 {% if include.facet_by %}
   <form class="row" id="facets">
-    {% assign facet_list = include.facet_by | split: "|" %}
+    {% assign facet_list = include.facet_by | split: ", " %}
     {% for facet in facet_list %}
       {% comment %}- MULTI-VALUE FACETS -{% endcomment%}
       {% if facet contains "*" %}
@@ -38,13 +38,13 @@
           {% if option contains separator %}
             {% assign split_values = {{option}} | split: separator %}
             {% for split_value in split_values %}
-              {% capture temp_facet_values %}{{ temp_facet_values | append: split_value }}|{% endcapture %}
+              {% capture temp_facet_values %}{{ temp_facet_values | append: split_value }}, {% endcapture %}
             {% endfor %}
           {% else %}
-            {% capture temp_facet_values %}{{ temp_facet_values | append: option}}|{% endcapture %}
+            {% capture temp_facet_values %}{{ temp_facet_values | append: option}}, {% endcapture %}
           {% endif %}
         {% endfor %}
-        {% assign facet_values = temp_facet_values | split: "|" | uniq | sort_natural %}
+        {% assign facet_values = temp_facet_values | split: ", " | uniq | sort_natural %}
       {% else %}
         {% assign facet_values = collection | map: facet | compact | uniq | sort_natural %}
         {% assign facet_name = facet %}
@@ -109,7 +109,7 @@
                   {% assign split_values = {{item_value}} | split: separator %}                 
                   {% for split_value in split_values %}
                     {% assign split_slug_value = split_value | slugify %}
-                    {% capture temp_facet_values %}{{ temp_facet_values | append: split_slug_value }}{% unless split_value == split_values.last %}|{% endunless %}{% endcapture %}
+                    {% capture temp_facet_values %}{{ temp_facet_values | append: split_slug_value }}{% unless split_value == split_values.last %}, {% endunless %}{% endcapture %}
                   {% endfor %}
                 {% else %}
                   {% assign slug_value = item_value | join " " | slugify %}
