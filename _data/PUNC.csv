@@ -1,0 +1,11 @@
+pid,film,label,timestamp,alt,angle,distance,location,movement,lighting,composition,duration,layout
+PUNC-00039,Punch-Drunk Love,PUNC-00039,0:00:39,"A man sits at a desk on the phone, in the corner of an empty room.",eye-level,long shot,interior,"mobile, handheld",low key,single shot,long take,film_item
+PUNC-00436,Punch-Drunk Love,PUNC-00436,0:04:36,A man drinking from a coffee cup watches as a woman steps out of her car.,eye-level,long shot,exterior,"mobile, handheld, tracking",high key,single shot,long take,film_item
+PUNC-00942,Punch-Drunk Love,PUNC-00942,0:09:42,Two men stand in an office looking at a harmonium.,eye-level,medium shot,interior,"mobile, tracking",high key,two shot,,film_item
+PUNC-01736,Punch-Drunk Love,PUNC-01736,0:17:36,Three people stand in a living room.,eye-level,medium shot,interior,"mobile, handheld, pan, tracking",high key,three shot,long take,film_item
+PUNC-01853,Punch-Drunk Love,PUNC-01853,0:18:53,A man stands in front of a broken glass window.,eye-level,full shot,interior,fixed,high key,group shot,,film_item
+PUNC-02040,Punch-Drunk Love,PUNC-02040,0:20:40,A grocery store.,eye-level,establishing shot,interior,fixed,high key,,,film_item
+PUNC-02924,Punch-Drunk Love,PUNC-02924,0:29:24,A living room.,eye-level,medium shot,interior,"mobile, pan",low key,,,film_item
+PUNC-12146,Punch-Drunk Love,PUNC-12146,1:21:46,"A woman stands behind a seated man, cutting his hair, and they look up in unison.",low,medium shot,interior,"mobile, tracking",low key,two shot,long take,film_item
+PUNC-12358,Punch-Drunk Love,PUNC-12358,1:23:58,A man gestures threateningly with a phone in his hand.,eye-level,full shot,interior,"mobile, tracking",high key,three shot,,film_item
+PUNC-12723,Punch-Drunk Love,PUNC-12723,1:27:23,A woman hugs a man from behind.,low,close-up,interior,"mobile, tracking",backlighting,two shot,,film_item
