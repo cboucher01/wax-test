@@ -1,0 +1,61 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/PUNC.json",
+  "@type": "sc:Collection",
+  "label": "PUNC",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/PUNC-00039/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "PUNC-00039"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/PUNC-00436/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "PUNC-00436"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/PUNC-00942/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "PUNC-00942"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/PUNC-01736/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "PUNC-01736"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/PUNC-01853/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "PUNC-01853"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/PUNC-02040/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "PUNC-02040"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/PUNC-02924/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "PUNC-02924"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/PUNC-12146/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "PUNC-12146"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/PUNC-12358/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "PUNC-12358"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/PUNC-12723/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "PUNC-12723"
+    }
+  ]
+}

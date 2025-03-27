@@ -97,6 +97,17 @@ search:
           - lighting
           - composition
           - duration
+      PUNC:
+        content: false # whether or not to index page content
+        fields: # the metadata fields to index
+          - film
+          - angle
+          - distance
+          - location
+          - movement
+          - lighting
+          - composition
+          - duration
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
