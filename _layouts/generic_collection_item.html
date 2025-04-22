@@ -11,7 +11,8 @@ layout: default
     <span class='pagination-link' id='prevlink'></span>
 
     {% if page.manifest.size > 0 %}
-      {% include osd_iiif_image_viewer.html manifest=page.manifest %}
+      {% capture this-manifest %}https://digbmc.github.io/pta-punc-server/{{ page.pid | downcase }}/manifest.json{% endcapture %}
+      {% include osd_iiif_image_viewer.html manifest=this-manifest %}
     {% elsif page.full.size > 0 %}
       {% include simple_image_viewer.html full_image=page.full %}
     {% endif %}
